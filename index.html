@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExploreLocal - Your Personal City Guide</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <span class="explore">Explore</span><span class="local">Local</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#attractions">Attractions</a></li>
+                    <li><a href="#tours">Tours</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Discover Hidden Gems in Your City</h1>
+                <p>Get personalized recommendations for the best local attractions, restaurants, and activities from our AI-powered guide.</p>
+                <div class="cta-buttons">
+                    <a href="#attractions" class="btn primary">Explore Now</a>
+                    <button id="chat-btn" class="btn secondary">Ask Our Guide <i class="fas fa-comment-dots"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="feature-card">
+                <i class="fas fa-map-marked-alt"></i>
+                <h3>Local Attractions</h3>
+                <p>Discover the best spots in town that only locals know about.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-utensils"></i>
+                <h3>Dining Guide</h3>
+                <p>Find restaurants that match your taste and budget.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-calendar-alt"></i>
+                <h3>Events</h3>
+                <p>Never miss out on local events and happenings.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="attractions" id="attractions">
+        <div class="container">
+            <h2>Popular Attractions</h2>
+            <div class="attraction-grid">
+                <!-- Attractions will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section class="tours" id="tours">
+        <div class="container">
+            <h2>Guided Tours</h2>
+            <div class="tour-cards">
+                <div class="tour-card">
+                    <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29" alt="Historic Downtown Tour">
+                    <div class="tour-info">
+                        <h3>Historic Downtown Walk</h3>
+                        <p class="tour-desc">Explore the rich history of our city with this 2-hour walking tour.</p>
+                        <div class="tour-meta">
+                            <span><i class="fas fa-clock"></i> 2 hours</span>
+                            <span><i class="fas fa-dollar-sign"></i> 25</span>
+                        </div>
+                        <a href="#" class="btn primary">Book Now</a>
+                    </div>
+                </div>
+                <div class="tour-card">
+                    <img src="https://images.unsplash.com/photo-1518391846015-55a9cc003b25" alt="Food Tour">
+                    <div class="tour-info">
+                        <h3>Local Food Tasting</h3>
+                        <p class="tour-desc">Sample the best local cuisine at 5 different establishments.</p>
+                        <div class="tour-meta">
+                            <span><i class="fas fa-clock"></i> 3 hours</span>
+                            <span><i class="fas fa-dollar-sign"></i> 45</span>
+                        </div>
+                        <a href="#" class="btn primary">Book Now</a>
+                    </div>
+                </div>
+                <div class="tour-card">
+                    <img src="https://images.unsplash.com/photo-1470004914212-05527e49370b" alt="Nightlife Tour">
+                    <div class="tour-info">
+                        <h3>Nightlife Experience</h3>
+                        <p class="tour-desc">Discover the vibrant nightlife scene with our expert guides.</p>
+                        <div class="tour-meta">
+                            <span><i class="fas fa-clock"></i> 4 hours</span>
+                            <span><i class="fas fa-dollar-sign"></i> 35</span>
+                        </div>
+                        <a href="#" class="btn primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>About ExploreLocal</h2>
+                <p>We're passionate about connecting visitors and locals alike with the best experiences our city has to offer. Our team of local experts and AI technology work together to provide personalized recommendations that go beyond typical tourist guides.</p>
+                <p>Founded in 2023, ExploreLocal has helped over 50,000 people discover authentic local experiences. We partner with small businesses and independent operators to showcase the true character of our community.</p>
+                <div class="stats">
+                    <div class="stat">
+                        <span class="number">500+</span>
+                        <span class="label">Local Partners</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number">50K+</span>
+                        <span class="label">Happy Explorers</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number">24/7</span>
+                        <span class="label">Support</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Local Street, Your City</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> hello@explorelocal.com</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ExploreLocal</h3>
+                    <p>Your trusted guide to authentic local experiences.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#attractions">Attractions</a></li>
+                        <li><a href="#tours">Tours</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe for local tips and deals</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 ExploreLocal. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chatbot Widget -->
+    <div class="chatbot-container" id="chatbot-container">
+        <div class="chatbot-header">
+            <h3>Local Guide Assistant</h3>
+            <button id="close-chat"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="chatbot-messages" id="chatbot-messages">
+            <div class="bot-message">
+                <p>Hello! I'm your local guide assistant. How can I help you explore our city today?</p>
+                <div class="quick-replies">
+                    <button class="quick-reply" data-reply="What are the top attractions?">Top attractions</button>
+                    <button class="quick-reply" data-reply="Where can I find good restaurants?">Restaurants</button>
+                    <button class="quick-reply" data-reply="What events are happening this weekend?">Events</button>
+                </div>
+            </div>
+        </div>
+        <div class="chatbot-input">
+            <input type="text" id="user-input" placeholder="Ask about local attractions...">
+            <button id="send-message"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
